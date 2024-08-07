@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avaliação VI - Competição de Robôs</title>
+    <style>
+
+        body {
+            font-family: Cascadia Code, sans-serif;
+            background-color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            min-height: 100vh;
+            background-image: url("../image/fundo.png");
+        }
+        .container {
+            width: 80%;
+            max-width: 900px;
+            padding: 20px;
+            background-color: #333;
+            box-shadow: 0 8px 10px rgba(0, 0, 0, 0.1);
+        }
+        .voltar {
+            text-align: left;
+        }
+
+        #arquivo {
+            text-align: center;
+            color: #94c2d2;
+            font-size: 22px;
+        }
+        .proximo {
+            text-align: right;
+        }
+
+        h1 {
+            color: #bed2d8;
+            text-align: center;
+        }
+        h2 {
+            color: #bed2d8;
+            text-align: center;
+        }
+        h3 {
+            color: #bed2d8;
+            font-size: 18px;
+            text-align: center;
+        }
+        p {
+            font-size: 16px;
+            color: #ffffff;
+            margin: 10px;
+            text-align: left;
+        }
+        h4 {
+            font-size: 16px;
+            color: #ffffff;
+            margin: 10px;
+        }
+        a {
+            color: #87c0d8;
+            font-size: 16px;
+            text-align: center;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 20px auto;
+        }
+        footer{
+            bottom: 0%;
+            width: 100%;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Avaliação VI</h1>
+        <h2>Competição de Robôs</h2>
+        <a id="arquivo" href="https://drive.google.com/file/d/1LUVS7k2519s19Lh8rh_yhUWokr_musR8/view?usp=drive_link">Arquivo do Projeto</a><br/>
+        
+        <h3>Prototipagem</h3>
+        <img src="../image/atv6.png" alt="Pioneers em competição">
+        <p>Nesta simulação, temos num cenário mais complexo, com obstáculos e curvas, dois robôs Pioneers. Pra estes, teremos codificações diferentes para cada pioneer, já que eles estarão em competição. Veja detalhes do código à seguir.</p>
+        
+        <br/><br/>
+
+        <h3>Codificação</h3>
+        <img src="../image/cod6_1.png" alt="código de ativação Pioneer">
+        <p>O código inicia com a inicialização dos elementos por padrão. Iniciados, vamos à ativação das ações: O robô 1 é programado para além de desviar dos obstáculos virando para direita ou esquerda seguindo a detecção dos sensores de proximidade, ter um tempo de escape, que faz com que ele vire para um ângulo aleatório e desvie, mudando seu curso temporariamente, e depois de desviado o robô oponete, ele volta para o seu curso normal.</p>
+        <img src="../image/cod6_2.png" alt="código de ativação Pioneer">
+        <p>Este código também inicia com a inicialização dos elementos por padrão. Iniciados, vamos à ativação das ações: A programação do robô 2 é bem mais simples, visto que ele apenas anda para frente e desvia de obstáculos que estão a sua frente.</p>
+        <p>Percebemos que a base da programação desta avaliação é a mesma da apresentada na avaliação V. Ou seja, a partir desta base, é possível explorar várias possibilidades com o pequeno Pioneer.</p>
+
+        <br/><br/><br/>
+        <a class="proximo" href="atv7.html">Próxima Página</a><br/>
+        <a class="home" href="../index.html">Voltar para Home</a>
+
+        <br/><br/>
+
+        <footer>
+            <h4>&copy; - <span id="copyright-year"></span> <strong>UEPA</strong> | Todos os direitos reservados </h4>
+        </footer>
+    </div>
+
+</body>
+</html>

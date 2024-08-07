@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avaliação VII - Robô seguidor de linha</title>
+    <style>
+
+        body {
+            font-family: Cascadia Code, sans-serif;
+            background-color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            min-height: 100vh;
+            background-image: url("../image/fundo.png");
+        }
+        .container {
+            width: 80%;
+            max-width: 900px;
+            padding: 20px;
+            background-color: #333;
+            box-shadow: 0 8px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        #arquivo {
+            text-align: center;
+            color: #94c2d2;
+            font-size: 22px;
+        }
+
+        h1 {
+            color: #bed2d8;
+            text-align: center;
+        }
+        h2 {
+            color: #bed2d8;
+            text-align: center;
+        }
+        h3 {
+            color: #bed2d8;
+            font-size: 18px;
+            text-align: center;
+        }
+        p {
+            font-size: 16px;
+            color: #ffffff;
+            margin: 10px;
+            text-align: left;
+        }
+        h4 {
+            font-size: 16px;
+            color: #ffffff;
+            margin: 10px;
+        }
+        a {
+            color: #87c0d8;
+            font-size: 16px;
+            text-align: center;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 20px auto;
+        }
+        footer{
+            bottom: 0%;
+            width: 100%;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Avaliação VII</h1>
+        <h2>Robô seguidor de linha</h2>
+        <a id="arquivo" href="https://drive.google.com/drive/folders/1QmLO7LyEwogz5JxvuUSEiNGBZk1YPOc4?usp=sharing">Arquivo do Projeto</a><br/>
+        
+        <br/><br/>
+
+        <h2>7.1</h2>
+
+        <h3>Prototipagem</h3>
+        <img src="../image/atv7_1.png" alt="Robô de linha">
+        <p>Aqui temos um robô seguidor de linha e o percurso que ele deve percorrer. O objetivo é que ele ande apenas pelo percurso, ou seja, a linha preta.</p>
+        
+        <br/><br/>
+
+        <h3>Codificação</h3>
+        <img src="../image/cod7_1.png" alt="código de ativação: seguidor de linha">
+        <p>Iniciamos, por padrão, com a inicialização dos elementos, sendo o motores esquerdo e direito, sensores esquerdo e direito, e a variável de velocidade inicial. Partimos então para o funcionamento: Como o objetivo deste robô é apenas seguir o caminho correto, programamos seus sensores para "enxergarem" a cor preta, ou seja, onde há ausência de reflexo, e seguir este caminho.</p>
+        
+        <br/><br/><br/>
+
+        <h2>7.2</h2>
+
+        <h3>Prototipagem</h3>
+        <img src="../image/atv7_2.png" alt="Robô de linha">
+        <p>Aqui temos mais um robô seguidor de linha e o percurso que ele deve percorrer. O objetivo é que ele ande apenas pelo percurso, ou seja, a linha preta, rapidamente.</p>
+        
+        <br/><br/>
+
+        <h3>Codificação</h3>
+        <img src="../image/cod7_2.png" alt="código de ativação: seguidor de linha">
+        <p>Iniciamos, por padrão, com a inicialização dos elementos, sendo o motores esquerdo e direito, sensores esquerdo e direito, e a variável de velocidade inicial. Partimos então para o funcionamento: Agora, este robô deve seguir o caminho correto de forma rápida, então programamos seus sensores para "enxergarem" a cor preta, ou seja, onde há ausência de reflexo, e seguir este caminho e também ajustamos a sua velocidade.</p>
+        
+        <br/><br/><br/>
+
+        <h2>7.3</h2>
+
+        <h3>Prototipagem</h3>
+        <img src="../image/atv7_3.png" alt="Robô de linha">
+        <p>Aqui temos também um robô seguidor de linha e o percurso que ele deve percorrer. O objetivo é que ele ande apenas pelo percurso, sendo agora a linha branca.</p>
+        
+        <br/><br/>
+
+        <h3>Codificação</h3>
+        <img src="../image/cod7_3.png" alt="código de ativação: seguidor de linha">
+        <p>Iniciamos, por padrão, com a inicialização dos elementos, sendo o motores esquerdo e direito, sensores esquerdo e direito, e a variável de velocidade inicial. Partimos então para o funcionamento: Como o objetivo deste robô é apenas seguir o caminho correto, programamos seus sensores para "enxergarem" a cor branca, ou seja, onde o reflexo pe maior que 0.7, segundo a medida do sensor, e seguir este caminho.</p>
+        
+        <br/><br/><br/><br/>
+
+        <a class="home" href="../index.html">Voltar para Home</a>
+
+        <br/><br/>
+
+        <footer>
+            <h4>&copy; - <span id="copyright-year"></span> <strong>UEPA</strong> | Todos os direitos reservados </h4>
+        </footer>
+    </div>
+
+</body>
+</html>
